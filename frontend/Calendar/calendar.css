@@ -1,0 +1,39 @@
+#calendar{
+    height:400px;
+    width:300px;
+    margin:auto;
+    text-align:center;
+}
+
+table{
+    font-size: 24px;
+    width: 400px;
+    border:solid thin black;
+    margin:center;
+    align-items: center;
+    text-align: center;
+}
+
+button{
+  margin: 0;
+  font-size: 5px;
+  vertical-align:bottom;
+}
+
+#previous {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right:10px solid blue;
+}
+
+#next {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid blue;
+}
