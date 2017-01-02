@@ -1,4 +1,4 @@
-Anagrams
+# Anagrams
 
 An anagram is a type of word play, the result of rearranging the letters of a word or
 phrase to produce a new word or phrase, using all the original letters exactly once; for
@@ -10,7 +10,7 @@ for that word.
 For example: Given 'horse' and ['heros', 'horse', 'shore', 'standard'] as arguments, the
 output should be: ['heros', 'horse', 'shore']
 
-Frog Jump
+# Frog Jump
 
 A small frog wants to get to the other side of the road. The frog is currently located at
 position X and wants to get to a position greater than or equal to Y . The small frog
