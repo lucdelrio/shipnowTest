@@ -27,3 +27,29 @@ be positioned as follows:
 ● After the third jump, at position 100 (10 + 30 + 30 + 30)
 
 Assume that: X , Y and D are integers within the range (1..1,000,000,000) and X ≤ Y .
+
+# Department Salaries
+
+You are given two tables, department and employee , with the following structure:
+
+create table department (
+dept_id integer not null,
+dept_name varchar(30) not null,
+dept_location varchar(30) not null,
+unique(dept_id)
+);
+
+create table employee (
+emp_id integer not null,
+emp_name varchar(50) not null,
+dept_id integer not null,
+salary integer not null,
+unique(emp_id)
+);
+
+Each record in the table department represents a department which might hire some employees.
+Each record in the table employee represents an employee who works for one of the departments
+from the table department.
+Write an SQL query that returns a table comprising all the departments ( dept_id ) in the table
+department that hire at least one employee, the number of people they employ and the sum of
+salaries in each department. The table should be ordered by dept_id (in increasing order).
